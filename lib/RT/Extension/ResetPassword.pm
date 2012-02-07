@@ -1,6 +1,6 @@
 package RT::Extension::ResetPassword;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 =head1 DESCRIPTION
 
@@ -17,8 +17,8 @@ This extension should be compatible with RT 3.4 and later
 
 To install this extension:
 
-perl Makefile.PL
-make install
+    perl Makefile.PL
+    make install
 
 If you are running RT 3.8 or later, you must add RT-Extension-
 ResetPassword to your @Plugins in your RT_SiteConfig
