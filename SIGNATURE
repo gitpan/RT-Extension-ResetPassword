@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,29 +14,33 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 7c30d01e0166c8dd6488f26bba6422e84c697733 MANIFEST
-SHA1 9058916920319c7959ba3b80e66a0a7f172b0caa META.yml
-SHA1 7f9e55053ef2d982a4e7cf76d80dba35e0815298 Makefile.PL
-SHA1 e216fbc7979d2ca1b52d34db3d966d4d11e3a808 README
+SHA1 02b2508b9cd9a269e9e61bcbf481497f394eb967 Changes
+SHA1 108894393690e92b9cd8bb40450b82d7755d0b20 MANIFEST
+SHA1 b0c169d52bbe8ab36cdc9abfb215d9721bf64c1b META.yml
+SHA1 7a666f2029d3651084c36a2953f88c6d9a42caf4 Makefile.PL
+SHA1 f1ab335cea78b55f52bac9198ac3b62f5e008602 README
+SHA1 77bd395dc5fbf03006dfa551698aced4ae57dae9 etc/initialdata
 SHA1 6fab2c0c83c72aa30556578ae4b324b25d6fe9c3 html/Callbacks/RT-Extension-ResetPassword/Elements/Login/Default
-SHA1 1d841ed9e2c7212132f7c1a24d7ec40485d34d4c html/NoAuth/ResetPassword/Request.html
-SHA1 d27230a01dfaf1a396fb5d118cdc6075c07b0d41 html/NoAuth/ResetPassword/Reset/dhandler
-SHA1 7ba8556ded0e1b8465b2ebe703e073b416d454d7 inc/Module/Install.pm
-SHA1 69a3a256888658cbbe0164171744838e53dc06e3 inc/Module/Install/Base.pm
-SHA1 17be8c56d695ed14cf77e37542438a5eebf1c9e1 inc/Module/Install/Can.pm
-SHA1 b842371af51441beb020ce37349f96123841f684 inc/Module/Install/Fetch.pm
-SHA1 474ff5d11d1dd3327487f13d44d3c7b3945050a8 inc/Module/Install/Makefile.pm
-SHA1 033dfadada6315eaa9b74720d1eb2e0e9c8531c6 inc/Module/Install/ManifestSkip.pm
-SHA1 fdf68f7c27a463011640b0739299834a65268056 inc/Module/Install/Metadata.pm
-SHA1 086821cf681da29d7a7e94e8a6fe6cce7e14f00f inc/Module/Install/RTx.pm
-SHA1 d3a33569b41077d6a836f95bb63484c51e9d0a52 inc/Module/Install/ReadmeFromPod.pm
-SHA1 fe19e1641d3642424ba4088909e0f2e05747c76f inc/Module/Install/Win32.pm
-SHA1 b71a7355e7c74219f0d24aedf057121981ff0f95 inc/Module/Install/WriteAll.pm
-SHA1 fce5e99dc2ed7bb162272b1d62f5c63d493e526c lib/RT/Extension/ResetPassword.pm
+SHA1 3aac576da2213d87e057bd8ba773acd2bbb929fb html/NoAuth/ResetPassword/Request.html
+SHA1 957b33bce599f8d73778be00a1029717c70c75da html/NoAuth/ResetPassword/Reset/dhandler
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1a0e63581916a939cf578e2de0e3deb74206a120 inc/Module/Install/ManifestSkip.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 3f9e335a7fd57b7e27d7f6e4bdc7076dcc6dfc8c inc/Module/Install/RTx.pm
+SHA1 293967c09b20031d14fbe96d51a68b6e003a89c3 inc/Module/Install/RTx/Factory.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 772599244cc3349decf948929344d58bf17e04e1 lib/RT/Extension/ResetPassword.pm
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (Darwin)
+Version: GnuPG v1.4.12 (Darwin)
+Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAk8xtqcACgkQ0+gKWp5CJQq3OwCgwHY0Aom7zG2r6iT5s2NarzBJ
-//oAnjMpBTkP2giqx2xZNzx6xUIhPhsv
-=aHfV
+iEYEARECAAYFAlMeLIAACgkQ0+gKWp5CJQq2NwCfWmDCpGr5qD1dcOjBHjd2gOOf
+ubwAoLEvOwkRReRyJ1y2ek70Wjlr1iQc
+=aeMd
 -----END PGP SIGNATURE-----

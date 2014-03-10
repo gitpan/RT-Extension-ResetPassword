@@ -1,38 +1,91 @@
 package RT::Extension::ResetPassword;
 
-our $VERSION = '0.05';
+use strict;
+use warnings;
+
+our $VERSION = '0.06';
+
+=head1 NAME
+
+RT::Extension::ResetPassword - add "forgot your password?" link to RT instance
 
 =head1 DESCRIPTION
 
 This extension for RT adds a new "Forgot your password?" link to the front
 of your RT instance. Any user can request that RT send them a password
 reset token by email.  RT will send the user a one-time URL which he or
-she can use to reset her password. This extension allows _all_ users to
-reset their passwords by email. There isn't yet an option to only allow
-staff users or non-staff users to reset their passwords.
+she can use to reset her password. This extension allows only users that
+already have passwords reset their passwords by email.
+There isn't yet an option to only allow privileged or unpriviliged users
+to reset their passwords.
 
-=head1 INSTALL
+=head1 INSTALLATION
 
-This extension should be compatible with RT 3.4 and later
+=over
 
-To install this extension:
+=item C<perl Makefile.PL>
 
-    perl Makefile.PL
-    make install
+=item C<make>
 
-If you are running RT 3.8 or later, you must add RT-Extension-
-ResetPassword to your @Plugins in your RT_SiteConfig
+=item C<make install>
 
-Set(@Plugins, qw(RT::Extension::ResetPassword Your::Other::Extensions));
+May need root permissions
 
-Make sure you clear your mason cache before restarting apache
-rm -rf /opt/rt3/var/mason_data/obj/*
-apachectl restart
+=item C<make initdb>
 
+Only run this the first time you install this module.
 
-Copyright 2006-2011 Best Practical Solutions, LLC. 
-This software is distributed under the same license as Perl 5.8.8.
-For commercial support, please contact sales@bestpractical.com
+If you run this twice, you may end up with duplicate data
+in your database.
+
+If you are upgrading this module, check for upgrading instructions
+in case changes need to be made to your database.
+
+=item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
+
+If you are using RT 4.2 or greater, add this line:
+
+    Plugin('RT::Extension::ResetPassword');
+
+For RT 3.8 and 4.0, add this line:
+
+    Set(@Plugins, qw(RT::Extension::ResetPassword));
+
+or add C<RT::Extension::ResetPassword> to your existing C<@Plugins> line.
+
+=item Clear your mason cache
+
+    rm -rf /opt/rt4/var/mason_data/obj
+
+=item Restart your webserver
+
+=back
+
+=head1 UPGRADING
+
+If you are upgrading from version 0.05, you will need to run C<make
+initdb> as documented in L<INSTALLATION> to install the Template used by
+this Extension.
+
+=head1 CONFIGURATION
+
+The contents of the email sent to users can be found in the global
+PasswordReset template (do not confuse this with the core PasswordChange
+template).
+
+=head1 AUTHOR
+
+Jesse Vincent <jesse at bestpractical.com>
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2006-2014 Best Practical Solutions, LLC.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
 
 =cut
 
