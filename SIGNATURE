@@ -14,33 +14,34 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 02b2508b9cd9a269e9e61bcbf481497f394eb967 Changes
-SHA1 108894393690e92b9cd8bb40450b82d7755d0b20 MANIFEST
-SHA1 b0c169d52bbe8ab36cdc9abfb215d9721bf64c1b META.yml
-SHA1 7a666f2029d3651084c36a2953f88c6d9a42caf4 Makefile.PL
-SHA1 f1ab335cea78b55f52bac9198ac3b62f5e008602 README
+SHA1 ec12f0f115d8efcbac0c2ad314184d228d63c0c2 Changes
+SHA1 539b83a8882a4e5a0b5dce02547438fe962db652 MANIFEST
+SHA1 8c9c311a95eaf896b456d5174f5b69a2252b66a4 META.yml
+SHA1 bf975311a45adfd4da65a2b3614e440c0b365cc4 Makefile.PL
+SHA1 9badb1d213d2425c4f24530acc5823e2e07acaf0 README
 SHA1 77bd395dc5fbf03006dfa551698aced4ae57dae9 etc/initialdata
 SHA1 6fab2c0c83c72aa30556578ae4b324b25d6fe9c3 html/Callbacks/RT-Extension-ResetPassword/Elements/Login/Default
-SHA1 3aac576da2213d87e057bd8ba773acd2bbb929fb html/NoAuth/ResetPassword/Request.html
+SHA1 c733607c93084a9bcc6c6b0be5ec1df3ce3fa20a html/NoAuth/ResetPassword/Request.html
 SHA1 957b33bce599f8d73778be00a1029717c70c75da html/NoAuth/ResetPassword/Reset/dhandler
-SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
-SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
-SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
-SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
-SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
-SHA1 1a0e63581916a939cf578e2de0e3deb74206a120 inc/Module/Install/ManifestSkip.pm
-SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
-SHA1 3f9e335a7fd57b7e27d7f6e4bdc7076dcc6dfc8c inc/Module/Install/RTx.pm
-SHA1 293967c09b20031d14fbe96d51a68b6e003a89c3 inc/Module/Install/RTx/Factory.pm
+SHA1 dc13ce0dbb488a5de81c3f6519ee31acda17397a inc/Module/Install.pm
+SHA1 91c20cbda8ca41b4e8f9e0390faff635c2ebe839 inc/Module/Install/Base.pm
+SHA1 eaf50ccbacecb797f0527deb0221c8264f6c8bd8 inc/Module/Install/Can.pm
+SHA1 363c8931cc183444907684b71d6a379e4fc8edcb inc/Module/Install/Fetch.pm
+SHA1 0c70de66cdd063352766d49db176e5f710f75fe7 inc/Module/Install/Include.pm
+SHA1 26ae1c0f5f352037b560414f216d7e3ac682f936 inc/Module/Install/Makefile.pm
+SHA1 ff97eb025b44c343d026c2a56a73d50c65319e95 inc/Module/Install/Metadata.pm
+SHA1 acbf148a1e6067cc677c89da2bfe1ae4b0b1e01b inc/Module/Install/RTx.pm
+SHA1 3fdf4c0cffdb1a2e23e5cd26bf95be553f1f9590 inc/Module/Install/RTx/Runtime.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
-SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 772599244cc3349decf948929344d58bf17e04e1 lib/RT/Extension/ResetPassword.pm
+SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
+SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
+SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
+SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
+SHA1 b562a61fdeb734722f9480256e7279c9bac55cb2 lib/RT/Extension/ResetPassword.pm
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (Darwin)
-Comment: GPGTools - http://gpgtools.org
+Version: GnuPG v1
 
-iEYEARECAAYFAlMeLIAACgkQ0+gKWp5CJQq2NwCfWmDCpGr5qD1dcOjBHjd2gOOf
-ubwAoLEvOwkRReRyJ1y2ek70Wjlr1iQc
-=aeMd
+iEYEARECAAYFAlQHclIACgkQMflWJZZAbqBNNwCaAgzibnuvhi0Aikpddc8YD/03
+u70AniiLshMByHTmNPCwB9mEFjhefqwq
+=Z+eS
 -----END PGP SIGNATURE-----
