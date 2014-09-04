@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 ec12f0f115d8efcbac0c2ad314184d228d63c0c2 Changes
+SHA1 339a783d0c4f79797eaecb640dd0a676e6fce353 Changes
 SHA1 539b83a8882a4e5a0b5dce02547438fe962db652 MANIFEST
-SHA1 8c9c311a95eaf896b456d5174f5b69a2252b66a4 META.yml
+SHA1 a0a6e508d6904a4a2abe3b1218a5e574b153aaab META.yml
 SHA1 bf975311a45adfd4da65a2b3614e440c0b365cc4 Makefile.PL
 SHA1 9badb1d213d2425c4f24530acc5823e2e07acaf0 README
 SHA1 77bd395dc5fbf03006dfa551698aced4ae57dae9 etc/initialdata
 SHA1 6fab2c0c83c72aa30556578ae4b324b25d6fe9c3 html/Callbacks/RT-Extension-ResetPassword/Elements/Login/Default
-SHA1 c733607c93084a9bcc6c6b0be5ec1df3ce3fa20a html/NoAuth/ResetPassword/Request.html
+SHA1 f642dd532488c5081943ffe0aa6dfc465b27e6c9 html/NoAuth/ResetPassword/Request.html
 SHA1 957b33bce599f8d73778be00a1029717c70c75da html/NoAuth/ResetPassword/Reset/dhandler
 SHA1 dc13ce0dbb488a5de81c3f6519ee31acda17397a inc/Module/Install.pm
 SHA1 91c20cbda8ca41b4e8f9e0390faff635c2ebe839 inc/Module/Install/Base.pm
@@ -37,11 +37,11 @@ SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
 SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
 SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
 SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
-SHA1 b562a61fdeb734722f9480256e7279c9bac55cb2 lib/RT/Extension/ResetPassword.pm
+SHA1 9949ea5021bc052cc19dad33b6a1d822964e82ce lib/RT/Extension/ResetPassword.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEARECAAYFAlQHclIACgkQMflWJZZAbqBNNwCaAgzibnuvhi0Aikpddc8YD/03
-u70AniiLshMByHTmNPCwB9mEFjhefqwq
-=Z+eS
+iEYEARECAAYFAlQIwSEACgkQMflWJZZAbqARKACcC7bh3VG9xlQQA5s7bmdEFvdw
+ejgAoJ0dc1g/xPUi2exCgVgOkczTh+Wa
+=am+p
 -----END PGP SIGNATURE-----
